@@ -63,6 +63,9 @@ html, body {
     height: 80px; 
     width: 100%;
   }
+    li a {
+    color: white; 
+  }
   
   .nav ul {
     height: 80px;
