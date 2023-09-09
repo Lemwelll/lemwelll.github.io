@@ -1,0 +1,61 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6b2737;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #6b2737;
+    color: white;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+td {
+    border: 1px solid #6b2737;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+td.left {
+    text-align: left;
+}
+
+footer {
+    background-color: #6b2737;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer h3 {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer h3:not(:last-child) {
+    margin-right: 20px;
+}
