@@ -19,6 +19,7 @@ html, body {
     background-size: cover;
     height: 800px;
     text-align: center; 
+    
   }
   
   .header .container {
@@ -56,6 +57,7 @@ html, body {
     padding: 10px 40px;
     text-decoration: none; 
     transition: background .5s; 
+    font-weight: 500;
   }
   
   .nav { 
@@ -63,10 +65,9 @@ html, body {
     height: 80px; 
     width: 100%;
   }
-    li a {
+  li a {
     color: white; 
   }
-  
   .nav ul {
     height: 80px;
     list-style: none;
@@ -81,7 +82,8 @@ html, body {
     line-height: 80px; 
     list-style: none;
     padding: 0 10px;
-    transition: background .5s; 
+    transition: background .5s;
+     
   }
   
   .btn:hover, .nav ul li:hover {
@@ -96,7 +98,7 @@ html, body {
   
   .main img {
     float: left;
-    margin: 50px 80px 50px 0;
+    margin: -30px 40px 60px 0;
   }
   
   .jumbotron {
@@ -138,6 +140,103 @@ html, body {
     line-height: 80px;
     margin: 0;  
   }
+  #hero {
+    background: url(lemwell.jpg) no-repeat center center; 
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #b6b2b2;
+    padding: 40px 0;
+    font-weight: lighter;
+}
+
+/* Portfolio Section Styles */
+/* Add this to your existing CSS or customize as needed */
+#portfolio {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+
+#portfolio h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.portfolio-item {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.portfolio-item h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.portfolio-item p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
   
   @media (max-width: 500px) {
     .header h1 {
@@ -152,4 +251,9 @@ html, body {
     .main img {
       width: 100%;
     }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
   }
+}
