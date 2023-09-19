@@ -1,51 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
-<link href="assets/ccs/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="header">
-      <div class="container">
-        <h1> WEB DEVELOPMEMT </h1>
-        <p>MY PORTFOLIO</p>
-        <a class="btn">Lemuel Bayson</a>
-      </div>
-    </div>
 
-    <div class="nav">
-      <div class="container">
-        <ul>
-          <li><a href="index1.1.html">Fashion Blog</a></li>
-          <li><a href="index1.2.html">Festival Schedule</a></li>
-          <li><a href="index1.3.html">Davies Burger</a></li>
-        </ul>
-      </div>
-    </div>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+  <link href="style.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
 
+<body>
+  <div class="header">
+    <div class="container">
+      <h1>WEB DEVELOPMENT</h1>
+      <p>MY PORTFOLIO</p>
+      <!-- Link to the About Me section -->
+      <a class="btn" href="#AboutMe">Timeline</a>
+    </div>
+  </div>
+
+  <div class="nav">
+    <div class="container">
+      <ul>
+        <!-- Links to different sections -->
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#Portfolio">Web Development</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <section id="AboutMe">
     <div class="main">
       <div class="container">
-        <img src="https://content.codecademy.com/projects/innovation-cloud/cloud.svg" height="128" width="196">
+        <img src="lemwell.jpg" height="200" width="200">
         <h2>Timeline</h2>
         <p>Name: Lemuel Labao Bayson</p>
         <p>Birthday: September 14, 2003</p>
-        <p>Address: Davao city, Philippines</p>
+        <p>Address: Davao City, Philippines</p>
       </div>
     </div>
+  </section>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h2>Stay with Me</h2>
-        <p>Developing my Own  Profile</p>
-        <a class="btn" href="#">Click Here</a>
-      </div>
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        My name is Lemuel Bayson, and I am 20 years old. 
+        I live in Bayugan City, Agusan del Sur. I graduated in Bayugan Central Elementary School my elementary days. 
+        For junior high school, I completed my education at L Bayugan National Comprehensive High School. Later, for my senior high school, I 
+        graduated from Bayugan National Comprehensive Senior High School. Currently, I am a second-year 
+        BSIT student at the University of Immaculate Conception. While I am still in the 
+        process of developing my programming and website development skills, I firmly believe 
+        that I will excel in these areas someday.
+      </p>
     </div>
+  </section>
 
-    <div class="footer">
-      <div class="container">
-        <p>&copy; Testing</p>
+  <section id="Portfolio">
+    <div class="container">
+      <h2>Web Development</h2>
+      <div class="portfolio-item">
+        <a class="btn" href="index1.2.html">Learn HTML Activities</a>
+        <h3>Project 1</h3>
+        <p>In this project we completed the learnyouhtml task. It quite interesting and Fun but I realize that this 
+          activity gives me lesson on how we develop our skills in making a web development.
+        </p>
+      </div>
+      <div class="portfolio-item">
+        <a class="btn" href="index1.3.html">Learn CSS Activities</a>
+        <h3>Project 2</h3>
+        <p>In the CSS Activity this was the most interesting part of all the developing web app. It looks like we develop
+          our own website like we want to achieve. </p>
+      </div>
+        <div class="portfolio-item">
+          <a class="btn" href="Financial Tracker.html">Financial Tracker</a>
+          <h3>Project 3</h3>
+          <p>Developing a web application, such as a financial tracker, can be a fulfilling and challenging experience.</p>
       </div>
     </div>
-  </body>
+  </section>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h2>Stay with Me</h2>
+      <p>Developing my Own Profile</p>
+      <a class="btn" href="#">Click Here</a>
+    </div>
+  </div>
+
+  <section id="Contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Get in touch with us for any inquiries or collaborations.</p>
+      <form action="contact.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="footer">
+    <div class="container">
+      <p>&copy; Testing</p>
+    </div>
+  </div>
+</body>
+
 </html>
-
