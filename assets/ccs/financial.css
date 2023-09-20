@@ -1,4 +1,3 @@
-/* Styling for the .desktop container */
 .desktop {
     background-color: #838687;
     display: flex;
@@ -6,23 +5,18 @@
     justify-content: center;
     width: 100%;
   }
-  
-  /* Styling for the .overlap-wrapper */
   .desktop .overlap-wrapper {
     background-color: #838687;
     height: 1024px;
     overflow: hidden;
     width: 1440px;
   }
-  
-  /* Styling for the .overlap container */
-  .desktop .overlap {
+    .desktop .overlap {
     height: 1020px;
     position: relative;
     top: 13px;
   }
   
-  /* Styling for the .overlap-group container */
   .desktop .overlap-group {
     height: 991px;
     left: 35px;
@@ -31,7 +25,6 @@
     width: 1405px;
   }
   
-  /* Styling for the .frame container */
   .desktop .frame {
     background-color: #00596c;
     border: 1px solid;
@@ -45,7 +38,6 @@
     width: 591px;
   }
   
-  /* Styling for the .div container */
   .desktop .div {
     height: 72px;
     left: -25px;
@@ -54,7 +46,6 @@
     width: 834px;
   }
   
-  /* Styling for the .rectangle */
   .desktop .rectangle {
     background-color: #fffbfb;
     border-radius: 20px 20px 0px 0px;
@@ -65,7 +56,6 @@
     width: 809px;
   }
   
-  /* Styling for the .text-wrapper */
   .desktop .text-wrapper {
     color: #00596c;
     font-family: "Montserrat", Helvetica;
@@ -81,7 +71,6 @@
     width: 372px;
   }
   
-  /* Styling for the .div-wrapper */
   .desktop .div-wrapper {
     background-color: #0087a4;
     border-radius: 20px 20px 0px 0px;
@@ -92,7 +81,6 @@
     width: 809px;
   }
   
-  /* Styling for the .text-wrapper-2 */
   .desktop .text-wrapper-2 {
     color: #ffffff;
     font-family: "Montserrat", Helvetica;
@@ -107,7 +95,6 @@
     width: 449px;
   }
   
-  /* Styling for the .text-wrapper-3 */
   .desktop .text-wrapper-3 {
     color: #ffffff;
     font-family: "Montserrat", Helvetica;
@@ -123,7 +110,6 @@
     width: 975px;
   }
   
-  /* Styling for the .group container */
   .desktop .group {
     height: 503px;
     left: 359px;
@@ -132,7 +118,6 @@
     width: 507px;
   }
   
-  /* Styling for the .overlap-2 container */
   .desktop .overlap-2 {
     height: 433px;
     left: 0;
@@ -141,7 +126,6 @@
     width: 491px;
   }
   
-  /* Styling for the .image-removebg */
   .desktop .image-removebg {
     height: 401px;
     left: 0;
@@ -151,7 +135,6 @@
     width: 390px;
   }
   
-  /* Styling for the .text-wrapper-4 */
   .desktop .text-wrapper-4 {
     color: #ffffff;
     font-family: "Montserrat", Helvetica;
@@ -166,7 +149,6 @@
     width: 40px;
   }
   
-  /* Styling for the .text-wrapper-5 */
   .desktop .text-wrapper-5 {
     color: #ffffff;
     font-family: "Montserrat", Helvetica;
@@ -181,7 +163,6 @@
     width: 51px;
   }
   
-  /* Styling for the .text-wrapper-6 */
   .desktop .text-wrapper-6 {
     color: #ffffff;
     font-family: "Montserrat", Helvetica;
@@ -196,7 +177,6 @@
     width: 59px;
   }
   
-  /* Styling for the .text-wrapper-7 */
   .desktop .text-wrapper-7 {
     color: #ffffff;
     font-family: "Montserrat", Helvetica;
@@ -211,7 +191,6 @@
     width: 60px;
   }
   
-  /* Styling for the .text-wrapper-8 */
   .desktop .text-wrapper-8 {
     color: #ffffff;
     font-family: "Montserrat", Helvetica;
@@ -225,7 +204,6 @@
     width: 223px;
   }
   
-  /* Styling for the .text-wrapper-9 */
   .desktop .text-wrapper-9 {
     color: #ffffff;
     font-family: "Montserrat", Helvetica;
@@ -239,7 +217,6 @@
     width: 223px;
   }
   
-  /* Styling for the .ellipse */
   .desktop .ellipse {
     background-color: #ffb200;
     border-radius: 9.09px/9.4px;
@@ -250,7 +227,6 @@
     width: 18px;
   }
   
-  /* Styling for the .img */
   .desktop .img {
     height: 19px;
     left: 0;
@@ -259,7 +235,6 @@
     width: 18px;
   }
   
-  /* Styling for the .overlap-3 container */
   .desktop .overlap-3 {
     height: 37px;
     left: 28px;
@@ -268,7 +243,6 @@
     width: 223px;
   }
   
-  /* Styling for the .ellipse-2 */
   .desktop .ellipse-2 {
     height: 19px;
     left: 204px;
@@ -277,7 +251,6 @@
     width: 18px;
   }
   
-  /* Styling for the .text-wrapper-10 */
   .desktop .text-wrapper-10 {
     color: #ffffff;
     font-family: "Montserrat", Helvetica;
@@ -291,7 +264,6 @@
     width: 223px;
   }
   
-  /* Styling for the .text-wrapper-11 */
   .desktop .text-wrapper-11 {
     color: #ffffff;
     font-family: "Montserrat", Helvetica;
@@ -306,7 +278,6 @@
     width: 147px;
   }
   
-  /* Styling for the .ellipse-3 */
   .desktop .ellipse-3 {
     height: 19px;
     left: 1px;
@@ -315,7 +286,6 @@
     width: 18px;
   }
   
-  /* Styling for the .frame-2 container */
   .desktop .frame-2 {
     background-color: #838687;
     border: 1px solid;
@@ -329,7 +299,6 @@
     width: 334px;
   }
   
-  /* Styling for the .text-wrapper-12 */
   .desktop .text-wrapper-12 {
     color: #ffffff;
     font-family: "Montserrat", Helvetica;
