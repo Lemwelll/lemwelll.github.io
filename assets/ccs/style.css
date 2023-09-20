@@ -11,7 +11,7 @@ html, body {
   .container {
     margin: 0 auto;
     max-width: 940px; 
-    padding: 0 10px;
+    padding: 0 10px;  
   }
   
   .header {
@@ -36,11 +36,11 @@ html, body {
     text-transform: uppercase; 
   }
   
-  @media (min-width:850px) {
+  @media (min-width:850px) {}
     .header h1 {
       font-size: 120px;
     }
-  }
+  
   
   .header p {
     color: #fff;
@@ -168,15 +168,12 @@ html, body {
     font-weight: bold;
 }
 
-/* About Section Styles */
 #about {
     background-color: #b6b2b2;
     padding: 40px 0;
     font-weight: lighter;
 }
 
-/* Portfolio Section Styles */
-/* Add this to your existing CSS or customize as needed */
 #portfolio {
   background-color: #f7f7f7;
   padding: 40px 0;
@@ -214,7 +211,6 @@ html, body {
   font-size: 16px;
 }
 
-/* Contact Section Styles */
 #contact {
     background-color: #fff;
     padding: 40px 0;
@@ -229,7 +225,6 @@ form input, form textarea, form button {
     border-radius: 5px;
 }
 
-/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;
