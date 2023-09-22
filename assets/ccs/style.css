@@ -2,7 +2,12 @@ html, body {
     margin: 0;
     padding: 0;
   }
-  
+  :root{
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color:#00abf0;
+  }
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -172,6 +177,33 @@ html, body {
     background-color: #b6b2b2;
     padding: 40px 0;
     font-weight: lighter;
+}
+.home-sci{
+  position: absolute;
+  bottom: -37rem;
+  left: 15rem;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.home-sci a{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: .2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 20px;
+  color: var(--main-color);
+  z-index: 1;
+  overflow: hidden;
+  transition: .5s;
+}
+.home-sci a:hover{
+  color: var(--bg-color);
 }
 
 #portfolio {
