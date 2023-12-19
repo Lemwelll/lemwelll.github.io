@@ -1,124 +1,248 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
-  <link href="assets/ccs/style.css" rel="stylesheet">
-   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <style>
-   
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Personal.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
-
 <body>
-  <div class="header">
-    <div class="container">
-      <h1>WEB DEVELOPMENT</h1>
-      <p>MY PORTFOLIO</p>
-      <!-- Link to the About Me section -->
-      <a class="btn" href="#AboutMe">Timeline</a>
-      <div class="home-sci">
-        <a href="https://www.facebook.com/lemuel.bayson.12" target="_blank"><i class='bx bxl-facebook' ></i></a>
-        <a href="#"><i class='bx bxl-twitter' ></i></a>
-        <a href="https://github.com/Lemwelll" target="_blank"><i class='bx bxl-github' ></i></a>
-    </div>  
-    </div>
-  </div>
+    <header class="header">
+        <a href="#" class="logo">Lemwel.</a>
 
-  <div class="nav">
-    <div class="container">
-      <ul>
-        <!-- Links to different sections -->
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#Portfolio">Web Development</a></li>
-        <li><a href="#Contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Lemuel Bayson</span></h1>
+            <div class="text-animate">
+                <h3>WebDev Student</h3>
+            </div>
+            <p>Welcome to My Portfolio, I'm Lemuel L. Bayson currently studying in the University of the Immaculate Conception. I'm 2nd year College with the Bachelor of Science in Information Technology. Basically, I'm currently studying Java, HTML, CSS and JavaScript. For now, We are building a System Project in our school using VueJs. The following script below is my current status of being an IT. </p>
+        
+        <div class="btn-box">
+            <a href="#" class="btn">Hire me</a>
+            <a href="#" class="btn">Let's Talk</a>
+        </div>
+        </div>
+        <div class="home-sci">
+            <a href="#" ><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+        </div>
 
-  <section id="AboutMe">
-    <div class="main">
-      <div class="container">
-        <img src="assets/ccs/lemwell.jpg" height="200" width="200">
-        <h2>Timeline</h2>
-        <p>Name: Lemuel Labao Bayson</p>
-        <p>Birthday: September 14, 2003</p>
-        <p>Address: Davao City, Philippines</p>    
-      </div>
-    </div>
-   
+        <div class="home-imgHover">  
+        </div>
+    </section>
 
-  </section>
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        My name is Lemuel Bayson, and I am 20 years old. 
-        I live in Bayugan City, Agusan del Sur. I graduated in Bayugan Central Elementary School my elementary days. 
-        For junior high school, I completed my education at L Bayugan National Comprehensive High School. Later, for my senior high school, I 
-        graduated from Bayugan National Comprehensive Senior High School. Currently, I am a second-year 
-        BSIT student at the University of Immaculate Conception. While I am still in the 
-        process of developing my programming and website development skills, I firmly believe 
-        that I will excel in these areas someday.
-      </p>
-    </div>
-  </section>
+        <div class="about-img">
+            <img src="lemwel.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
 
-  <section id="Portfolio">
-    <div class="container">
-      <h2>Web Development</h2>
-      <div class="portfolio-item">
-        <a class="btn" href="index1.2.html">Learn HTML Activities</a>
-        <h3>Project 1</h3>
-        <p>In this project we completed the learnyouhtml task. It quite interesting and Fun but I realize that this 
-          activity gives me lesson on how we develop our skills in making a web development.
-        </p>
-      </div>
-      <div class="portfolio-item">
-        <a class="btn" href="index1.3.html">Learn CSS Activities</a>
-        <h3>Project 2</h3>
-        <p>In the CSS Activity this was the most interesting part of all the developing web app. It looks like we develop
-          our own website like we want to achieve. </p>
-      </div>
-        <div class="portfolio-item">
-          <a class="btn" href="financial Tracker.html">Financial Tracker</a>
-          <h3>Project 3</h3>
-          <p>Developing a web application, such as a financial tracker, can be a fulfilling and challenging experience.</p>
-      </div>
-    </div>
-  </section>
+        <div class="about-content">
+            <h3>Frontend Developer</h3>
+            <p>Hi name is Lemuel Bayson, I'm 20 years old. I live in Bayugan City, Agusan del Sur. I'm currently studying at the University of Immaculate Conception(Main Campus). I'm already 2nd Year College student with the course of Bachelor of Science in Information Technology. I'm developing this Portfolio for my future purpose.  </p>
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
 
-  <div class="jumbotron">
-    <div class="container">
-      <h2>Stay with Me</h2>
-      <p>Developing my Own Profile</p>
-      <a class="btn" href="#">Click Here</a>
-    </div>
-  </div>
+            </div>
 
-  <section id="Contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>Get in touch with us for any inquiries or collaborations.</p>
-      <form action="contact.php" method="post">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-    </div>
-  </section>
+        </div>
 
-  <div class="footer">
-    <div class="container">
-      <p>&copy; Testing</p>
-    </div>
-  </div>
+    </section>
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2021 - 2022</div>
+                            <h3>1st Year College - University of the Immaculate Conception</h3>
+                            <p>In my first year, I've learned in the basic part of Java which the "Hello, World".
+                            and about hwo to implement the basic part of the Programming Language which is "Java".
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022 - 2023</div>
+                            <h3>2nd Year College - University of the Immaculate Conception</h3>
+                            <p>This year we are currently making first ever System Project. We are building a system for our school. Our system called " UIC Bookstore Online Reservation System.
+                                our system is to help our bookstore to have an alternative System for the student.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2023 - 2024</div>
+                            <h3>Soon 3rd Year College - University of the Immaculate Conception</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo molestiae consectetur inventore velit doloremque optio
+                             laboriosam animi sequi cum quam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2021 - 2022</div>
+                            <h3>System based in Java </h3>
+                            <p>We make a System using the Programming Language using Java. We makae a bank with funtional and a database. It's our final project.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022 - 2023</div>
+                            <h3>Building First System Project</h3>
+                            <p>We called it UIC Bookstore Online Reservation System. Currently we build this system with our groupmates.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2023 - 2024</div>
+                            <h3>Existing Project</h3>
+                            <h1></h1>
+                            <a class="btn" href="index1.2.html">Learn HTML Activities</a>
+                            <a class="btn" href="index1.3.html">Learn CSS Activities</a>
+                            <a class="btn" href="financial Tracker.html">Financial Tracker</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="skills" id="skills">
+        <h2 class="heading">My <span> Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>30%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CCS <span>40%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>20%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Java <span>30%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+              <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>20%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Development <span>40%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Graphic Design <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Marketing Strategy <span>30%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     </section>
+
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                   <span class="focus"> </span> 
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                   <span class="focus"> </span> 
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                   <span class="focus"> </span> 
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                   <span class="focus"> </span> 
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+     </section>
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Lemwell | Sample Coding Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+     </footer>
+    <script src="#"></script>
 </body>
-
 </html>
